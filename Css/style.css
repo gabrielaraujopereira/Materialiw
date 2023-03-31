@@ -2,9 +2,21 @@ body{
     background-color: hsl(0, 0%, 0%);
 }  
 h1{
-    color: aliceblue;
+    color: #da1515;
     text-align: center;
 }  
+h2{
+    color: #ffffff;
+}
+h3{
+    color: azure;
+}
+p{
+    color: #710404;
+}
+figcaption{
+    color: azure;
+}
 header{
     width: 100%;
     background-color: #3d3c3c;
@@ -18,7 +30,7 @@ header{
 
 nav{
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
 
@@ -28,13 +40,13 @@ nav{
 }
 
 .container{
-    background-color: #3d3c3c;
-    width: 80%;
+    background-color: #1c1b1b;
+    width: 90%;
     margin: auto;
 
 }
 
 footer{
-    background-color: #3d3c3c;
+    background-color: #710404;
     width: 100%;
 }
