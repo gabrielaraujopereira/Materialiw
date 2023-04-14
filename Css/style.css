@@ -67,7 +67,13 @@ img {
     margin-right: auto;
   }
   
+.simbolozinho{
+    text-align: left;
+}
 
+.simboloai{
+    text-align: right;
+}
 .imagem{
     margin: auto;
     display: block;
