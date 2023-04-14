@@ -22,11 +22,17 @@ h3{
 }
 H4{
     color: azure;
+    text-align: center;
 }
 p{
     color: #710404;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+ul{
+    padding: 1%;
+    text-align: center;
+    list-style-type: circle;
 }
 li{
     color: #710404;
