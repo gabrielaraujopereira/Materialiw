@@ -90,6 +90,10 @@ li {
     font-family: "Papyrus", fantasy;
 }
 
+blockquote{
+    font-family: "Papyrus", fantasy;
+}
+
 img {
     display: block;
     margin: auto;
