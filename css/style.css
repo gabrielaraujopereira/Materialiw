@@ -1,5 +1,5 @@
 body {
-    background-color: black);
+    background-color: black;
     background-position: center;
 	font-family: Arial, sans-serif;
 	color: #ffffff;
@@ -58,23 +58,23 @@ p{
     color: #710404;
     padding: 0.5%;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
 }
 
-blockquote{
-    color: #710404;
-}
 
 h2 {
 	font-size: 1.5em;
 	text-align: left;
     color: aliceblue;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
 }
 
 h3{
     font-size: 1.3em;
     color: #FFF;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
 }
 
 ul {
@@ -88,10 +88,13 @@ li {
 	margin-bottom: 1%;
     color: #710404;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
 }
 
 blockquote{
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    color: #710404;
 }
 
 img {
@@ -117,6 +120,7 @@ h4{
     font-size: 1em;
     color: #710404;
     font-family: "Papyrus", fantasy;
+    font-weight: bold;
 }
 footer {
 	background-color: #101111;
