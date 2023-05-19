@@ -103,17 +103,9 @@ blockquote{
 
 img {
     display: block;
-    margin: auto;
+    margin-left: 2%;
     padding: 0.5%;
  }
-
- .simbolozinho{
-    text-align: left;
-}
-
-.simboloai{
-    text-align: right;
-}
 
 .container{
     width: 70%;
@@ -126,6 +118,11 @@ h4{
     font-family: "Papyrus", fantasy;
     font-weight: bold;
 }
+
+.bosta{
+    float: left;
+}
+
 footer {
 	background-color: #101111;
 	color: #FFF;
