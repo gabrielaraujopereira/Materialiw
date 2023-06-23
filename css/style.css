@@ -20,7 +20,7 @@ body {
 
   @font-face {
     font-family: "Bradley Gratis";
-    src: url("C:\Users\Gabriel\Downloads\Materialiw-1\fonts\bradley_gratis");
+    src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
   }
 
   h1 {
@@ -28,15 +28,16 @@ body {
     text-align: center;
     padding: 1%;
     font-family:  Arial;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 2em
 }
   
 h2 {
-	  font-size: 1.5em;
+	  font-size: 2em;
 	  text-align: left;
     color: aliceblue;
     font-family: "Bradley Gratis", arial;
+    text-align: center;
 }
 
 h3{
@@ -58,6 +59,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 1em;
     text-align: left;
+    line-height: 1.5em;
 }
 
 
@@ -83,8 +85,9 @@ p{
   }
 
   ul{
-    list-style-type: circle;
 	  padding: 1%;
+    list-style-image: url(../img/vampire.png);
+    line-height: 1.5em;
   }
 
   li{
