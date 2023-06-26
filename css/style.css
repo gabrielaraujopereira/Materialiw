@@ -228,5 +228,41 @@ p{
   color: white;
 }
 
+.searchbox{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #392972;
+  height: 3.5%;
+  padding: 1em;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0%;
+  color: #f0f5f0;
+  font-size: 0.9em;
+  line-height: 40px;
+  width: 0;
+  transition: .5s;
+}
 
+.searchbutton{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #392972;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbox:hover > .search-txt {
+  width: 240px;
+}
