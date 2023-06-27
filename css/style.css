@@ -73,7 +73,36 @@ body {
     border-radius: 30px;
     transition: all .50s ease;
   }
-  
+
+  .scroll-down i:hover{
+    transform: translateY(-5px);
+  }
+
+  @media (max-width: 1535px) {
+    header{
+      padding: 15px 3%;
+      transition: .2s;
+    }
+    .scroll-down{
+      right: 3%;
+      transition: .2s;
+    }
+  }
+
+  @media (max-width: 1460px) {
+    section{
+      padding: o 12%;
+      transition: .2sS;
+    }
+  }
+
+  @media (max-width: 1195px){
+    section{
+      padding: 0 3%;
+      transition: .2s;
+    }
+  }
+
   @font-face {
     font-family: "Bradley Gratis";
     src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
