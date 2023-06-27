@@ -23,12 +23,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 9%;
+    padding: 2em;
   }
 
   nav ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li{
+    display: inline;
+    margin-right: 1em;
   }
 
   nav a{
@@ -147,7 +154,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1%;
-    font-family:  Arial;
+    font-family: 'Bradley Gratis', sans-serif; 
     font-size: 2.5em;
     margin-bottom: 2em
 }

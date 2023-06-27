@@ -14,8 +14,8 @@ function pesquisar(){
     }
 }
 
-let menu = document.querySelector('#menu-icon');
-let nav = document.querySelector('nav');
+Let menu = document.querySelector('#menu-icon');
+Let nav = document.querySelector('nav');
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
