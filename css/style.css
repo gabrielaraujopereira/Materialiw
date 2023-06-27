@@ -230,6 +230,7 @@ p{
 
 .searchbox{
   position: absolute;
+  top: 90%;
   left: 50%;
   transform: translate(-50%,-50%);
   background-color: #392972;
@@ -265,4 +266,20 @@ p{
 
 .searchbox:hover > .search-txt {
   width: 240px;
+}
+
+#personagens li a{
+  padding: 12px;
+  color: #f1f1f1;
+  display: block;
+  outline: none;
+  text-decoration: none;
+}
+
+#personagens li a:hover{
+  background-color: #392972;
+  outline: none;
+  text-decoration: none;
+  transform: translateY(-5px);
+  cursor: pointer;
 }
