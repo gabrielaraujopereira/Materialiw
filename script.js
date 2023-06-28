@@ -13,32 +13,48 @@ function pesquisar(){
         }
     }
 }
-class MobileNavbar{
-constructor(menu, nav) {
-    this.menu = document.querySelector('#menu-icon');
-    this.nav = document.querySelector('nav ul');
+
+class MobileNavbar {
+  constructor(mobileMenu, navList, navLinks) {
+    this.mobileMenu = document.querySelector(mobileMenu);
+    this.navList = document.querySelector(navList);
+    this.navLinks = document.querySelectorAll(navLinks);
     this.activeClass = "active";
-}
 
-handleClick() {
-    console.log(this);
-    this.nav.classList.toggle(this.activeClass);
-}
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-addClickEvent() {
-    this.menu.addEventListener("click", this.handleClick);
-}
+  animateLinks() {
+    this.navLinks.forEach((link, index) => {
+      link.style.animation
+        ? (link.style.animation = "")
+        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+            index / 7 + 0.3
+          }s`);
+    });
+  }
 
-init() {
-    if (this.menu){
-        this.addClickEvent();
+  handleClick() {
+    this.navList.classList.toggle(this.activeClass);
+    this.mobileMenu.classList.toggle(this.activeClass);
+    this.animateLinks();
+  }
+
+  addClickEvent() {
+    this.mobileMenu.addEventListener("click", this.handleClick);
+  }
+
+  init() {
+    if (this.mobileMenu) {
+      this.addClickEvent();
     }
     return this;
   }
 }
 
-const menu = new MobileNavbar(
-    ".menu",
-    ".nav ul",
-    "nav ul li"
-)
+const mobileNavbar = new MobileNavbar(
+  ".mobile-menu",
+  ".nav-list",
+  ".nav-list li",
+);
+mobileNavbar.init();
