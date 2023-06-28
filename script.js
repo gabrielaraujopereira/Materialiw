@@ -13,21 +13,32 @@ function pesquisar(){
         }
     }
 }
+class MobileNavbar{
+constructor(menu, nav) {
+    this.menu = document.querySelector('#menu-icon');
+    this.nav = document.querySelector('nav ul');
+    this.activeClass = "active";
+}
 
-Let menu = document.querySelector('#menu-icon');
-Let nav = document.querySelector('nav');
+handleClick() {
+    console.log(this);
+    this.nav.classList.toggle(this.activeClass);
+}
 
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    nav.classList.toggle('open');
-};
+addClickEvent() {
+    this.menu.addEventListener("click", this.handleClick);
+}
 
-const sr = ScrollReveal ({
-    distance: '65px',
-    duration: 2600,
-    delay: 450,
-    reset: true
-});
+init() {
+    if (this.menu){
+        this.addClickEvent();
+    }
+    return this;
+  }
+}
 
-sr.reveal('.banner', {delay: 200, origin:'top'});
-sr.reveal('.scroll-down', {delay: 500, origin:'right'});
+const menu = new MobileNavbar(
+    ".menu",
+    ".nav ul",
+    "nav ul li"
+)
