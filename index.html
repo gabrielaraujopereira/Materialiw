@@ -14,28 +14,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fonts/bradley_gratis/Bradley\ Gratis.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="">Castlevania</a>
-        <nav class="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-                <span class="seila"></span>
-            </button>
-            <ul class="menu" role="menu">
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#curiosidades">Curiosidades</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-                <li><a href="animec.html #anime">Anime</a></li>
-                <li><a href="#fotos">Fotos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <header>
+        <nav>
+            <div class="logo">Castlevania</div>
+            <div class="menu-btn">
+                <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+            </div>
+            <ul>
+                <li> <a href="#menu" class="active">Menu</a></li>
+                <li> <a href="#sobre">Sobre</a></li>
+                <li> <a href="#curiosidades">Curiosidades</a></li>
+                <li> <a href="personagens.html #personagens">Personagens</a></li>
+                <li> <a href="animec.html #anime">Anime</a></li>
+                <li> <a href="#galeria">Galeria</a></li>
+                <li><a href="contato.html #contato">Contato</a></li>
             </ul>
+            <div class="bx bx-menu" class="menu-icon"></div>
         </nav>
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <script src="menu.js"></script>
     </header>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="menuuu.js"></script>
+    <div class="scroll-down">
+        <a href=""><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+    
     <figure>
         <a target="_blank" href="https://castlevaniadungeon.net/dungeon.html"></a><img class="banner" src="img/gifbanner1.gif" alt="banner">
     </figure>
