@@ -23,19 +23,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em;
+    padding: 33px 5%;
+    height: 12%;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
   }
 
   nav ul{
     display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
   }
 
   nav ul li{
     display: inline;
-    margin-right: 1em;
+    margin-left: 32px;
+    letter-spacing: 3px;
   }
 
   nav a{
@@ -53,7 +61,10 @@ body {
   }
 
   .logo{
-    font-size: 20px;
+    padding-left: 3em;
+    text-align: left;
+    font-size: 25px;
+    text-transform: uppercase;
     font-weight: 700;
     color: #fff;
   }
@@ -115,35 +126,44 @@ body {
   }
 
   @media (max-width: 990px ){
+    body{
+      overflow-x: hidden;
+    }
     #menu-icon{
       display: block;
     }
     nav ul{
       position: absolute;
-      top: 100%;
-      right: -100%;
-      width: 300px;
-      height: 40vh;
+      top: 8vh;
+      right: 0;
+      width: 50vh;
+      height: 92vh;
       background: #000;
       display: flex;
       align-items: center;
       flex-direction: column;
+      justify-content: space-around;
+      transform: translateX(100%);
       padding: 50px 20px;
-      transition: all .55s ease;
+      transition: all 0.3s ease-in;
+    }
+    nav ul li{
+      margin-left:0;
     }
     nav a{
       display: block;
       margin-left: 0;
       margin: 7px 0;
     }
-    nav.open{
+    nav ul.open{
       right: 0;
+    }
+    nav ul.active {
+      transform: translateX(0);
     }
   }
 
-  @media (max-width: 680px){
 
-  }
 
   @font-face{
     font-family: "Bradley Gratis";
