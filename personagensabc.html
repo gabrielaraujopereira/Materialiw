@@ -15,25 +15,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="">Castlevania</a>
-        <nav class="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-                <span class="seila"></span>
-            </button>
-            <ul class="menu" role="menu">
+    <header>
+        <nav>
+            <div class="logo">Castlevania</div>
+            <div class="menu-btn">
+                <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+            </div>
+            <ul>
                 <li><a href="index.html #menu">Menu</a></li>
                 <li><a href="index.html #sobre">Sobre</a></li>
                 <li><a href="index.html #curiosidades">Curiosidades</a></li>
-                <li><a href="personagens.html #personagens">Personagens</a></li>
+                <li><a href="personagens.html #personagens" class="active">Personagens</a></li>
                 <li><a href="animec.html #anime">Anime</a></li>
                 <li><a href="index.html #fotos">Fotos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <script type="text/javascript" src="menuuu.js"></script>
     </header>
-    <script type="text/javascript" src="menuuu.js"></script>
     <figure>
         <img class="banner" src="img/bannerpersonagens.gif" alt="banner">
     </figure>
