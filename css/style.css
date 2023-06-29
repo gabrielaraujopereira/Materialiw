@@ -84,7 +84,10 @@ nav .menu-btn i{
     cursor: pointer;
     display: none;
 }
-@media (max-width: 920px) {
+@media (max-width: 990px) {
+    header{
+        height: 3%;
+    }
     nav .menu-btn i{
         display: flex;
         padding: 0.5rem 1rem;
@@ -199,7 +202,7 @@ li{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #000;
+    background-color: #392972;
     padding: 2em;
     padding-top: 1em;
   
@@ -323,7 +326,7 @@ footer {
       top: 90%;
       left: 50%;
       transform: translate(-50%,-50%);
-      background-color: #392972;
+      background-color: #000;
       height: 3.5%;
       padding: 1em;
       border-radius: 40px;
@@ -350,7 +353,7 @@ footer {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #392972;
+      background-color: #000;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -369,7 +372,7 @@ footer {
     }
     
     #personagens li a:hover{
-      background-color: #392972;
+      background-color: #000;
       outline: none;
       text-decoration: none;
       transform: translateY(-5px);
