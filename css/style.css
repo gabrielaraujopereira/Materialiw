@@ -44,7 +44,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 33px 5%;
+  height: 7%;
 }
 
 .logo {
@@ -64,6 +65,7 @@ header {
   color: #fff;
   cursor: pointer;
 }
+
 
 nav ul {
   display: flex;
@@ -87,6 +89,12 @@ nav ul li a {
   transition: all 0.3s ease;
 }
 
+nav ul li a.active,
+nav ul li a:hover{
+    background: #a3a5ae;
+}
+
+
 @media (max-width: 990px) {
   header {
       flex-direction: column;
@@ -99,7 +107,10 @@ nav ul li a {
   }
 
   .menu-btn {
+      position: relative;
+      padding: 0.5rem 1rem;
       display: block;
+      cursor: pointer;
   }
 
   nav ul {
