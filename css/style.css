@@ -85,37 +85,40 @@ nav ul li a:hover {
 @media (max-width: 990px) {
   header {
       padding: 20px;
+      flex-direction: column;
+      align-items: center;
   }
 
   .logo {
-      font-size: 20px;
+      order: 1;
+  }
+
+  .menu-btn {
+      order: 3;
+      align-self: flex-start;
   }
 
   .menu-btn i {
+      order: 3;
       display: block;
   }
 
-  #menu {
+  nav ul {
       display: none;
       list-style-type: none;
       padding: 0;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background-color: #000;
-      border: none;
-      gap: 0.5rem;
+      margin-top: 10px;
   }
 
-  #menu.open {
+  .menu-btn:hover + ul {
       display: block;
   }
 
-  #menu li {
+  nav ul li {
       margin-bottom: 10px;
   }
 
-  #menu li a {
+  nav ul li a {
       font-size: 1em;
       padding: 1rem 0;
       margin: 0 1rem;
@@ -123,9 +126,9 @@ nav ul li a:hover {
       text-decoration: none;
       color: #fff;
       font-weight: bold;
+      order: 3;
   }
 }
-
 
   h1 {
     color: rgb(255, 255, 255);
