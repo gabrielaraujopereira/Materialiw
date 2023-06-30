@@ -1,11 +1,12 @@
-var ul = document.querySelector('nav ul');
-var menuBtn = document.querySelector('.menu-btn i');
+var menuBtn = document.querySelector(".menu-btn i");
+var menu = document.getElementById("menu");
+var isOpen = false;
 
-function menuShow(){
-    if (ul.classList.contains('open')) {
-        ul.classList.remove('open');
-    }
-    else{
-        ul.classList.add('open');
-    }
-}
+menuBtn.addEventListener("click", function () {
+  isOpen = !isOpen;
+  if (isOpen) {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+});
