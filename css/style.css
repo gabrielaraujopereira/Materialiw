@@ -95,19 +95,17 @@ nav ul li a {
   }
 
   .logo {
-      align-items: left;
       margin-bottom: 10px;
   }
 
   .menu-btn {
-      align-items: right;
       display: block;
   }
 
   nav ul {
-      display: none;
+      display: flex;
       flex-direction: column;
-      align-items: right;
+      align-items: center;
       margin-top: 10px;
   }
 
