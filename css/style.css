@@ -35,98 +35,88 @@ body {
 
 header {
   position: fixed;
+  right: 0;
   top: 0;
-  left: 0;
-  width: 100%;
   background-color: #000;
   color: #fff;
-  padding: 20px;
+  z-index: 1000;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
+  padding: 20px;
 }
 
 .logo {
+  font-family: 'Bradley Gratis';
+  color: #fff;
   font-size: 25px;
   font-weight: 600;
+  order: 1;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-nav ul li a.active,
-nav ul li a:hover {
-  background: #a3a5ae;
+.menu-btn {
+  order: 2;
+  display: none;
 }
 
 .menu-btn i {
   color: #fff;
   cursor: pointer;
-  display: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 990px) {
   header {
-      padding: 20px;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
+      padding: 10px;
   }
 
   .logo {
-      order: 1;
+      align-items: left;
+      margin-bottom: 10px;
   }
 
   .menu-btn {
-      order: 3;
-      align-self: flex-start;
-  }
-
-  .menu-btn i {
-      order: 3;
+      align-items: right;
       display: block;
   }
 
   nav ul {
       display: none;
-      list-style-type: none;
-      padding: 0;
+      flex-direction: column;
+      align-items: right;
       margin-top: 10px;
   }
 
-  .menu-btn:hover + ul {
-      display: block;
+  .menu-btn i:hover + ul {
+      display: flex;
   }
 
   nav ul li {
-      margin-bottom: 10px;
-  }
-
-  nav ul li a {
-      font-size: 1em;
-      padding: 1rem 0;
-      margin: 0 1rem;
-      border-bottom: 2px solid #000;
-      text-decoration: none;
-      color: #fff;
-      font-weight: bold;
-      order: 3;
+      margin: 5px 0;
   }
 }
 
