@@ -117,8 +117,8 @@ nav ul li a:hover{
 }
 
   .logo {
-      margin-bottom: 20px;
-      display: flex;
+    margin-top: -25px;
+    display: flex;
   }
 
   .menu-btn {
@@ -126,7 +126,7 @@ nav ul li a:hover{
       padding: 0.5rem 1rem;
       display: flex;
       cursor: pointer;
-      margin-top: -20px;
+      margin-top: -25px;
   }
 
   #menu {
@@ -139,6 +139,7 @@ nav ul li a:hover{
     background-color: #000;
     border: none;
     gap: 0.5rem;
+    margin-top: -5px;
     border-radius: 5px;
   }
 
@@ -175,7 +176,7 @@ nav ul li a:hover{
   }
 
   nav ul li a:hover{
-    background-color: #a3a5ae;
+    background-color: #a3a5ae; 
     cursor: pointer;
 }
 }
