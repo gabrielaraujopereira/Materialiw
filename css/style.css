@@ -297,7 +297,6 @@ footer {
      padding: 2em;
     text-align: center;
 }
-    
 .linha {
   display: flex;
   flex-flow: row wrap;
@@ -400,7 +399,6 @@ footer {
   font-size: 14px;
   font-weight: 100;
   opacity: .8;
-  
   text-align: justify;
 }
 
