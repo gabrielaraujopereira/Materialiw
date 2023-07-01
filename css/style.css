@@ -171,6 +171,11 @@ nav ul li a:hover{
   nav ul li {
       margin: 5px 0;
   }
+
+  nav ul li a:hover{
+    background-color: #a3a5ae;
+    cursor: pointer;
+}
 }
 
   h1 {
