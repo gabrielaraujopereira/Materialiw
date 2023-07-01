@@ -145,8 +145,6 @@ nav ul li a:hover{
       display: flex;
       cursor: pointer;
       margin-top: -25px;
-      flex-direction: column; 
-      align-items: flex-start;
   }
 
   #menu {
@@ -162,14 +160,10 @@ nav ul li a:hover{
     margin-top: -5px;
     border-radius: 5px;
   }
-
   #menu.open {
     display: block;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#menu li {
+  }
+  #menu li {
     margin-bottom: 10px;
 }
 
@@ -329,7 +323,7 @@ footer {
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
-  width: 360px;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,7 +340,7 @@ footer {
 }
 
 .card .img {
-  width: 360px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -406,7 +400,8 @@ footer {
   font-size: 14px;
   font-weight: 100;
   opacity: .8;
-  margin-top: 8px;
+  
+  text-align: justify;
 }
 
 .card .arrow {
