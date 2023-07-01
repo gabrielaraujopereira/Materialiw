@@ -53,6 +53,7 @@ nav{
 }
 
 .logo {
+  left: 0;
   font-family: 'Bradley Gratis';
   color: #fff;
   font-size: 25px;
@@ -70,6 +71,7 @@ nav{
 
 
 nav ul {
+  right: 0;
   display: flex;
   list-style: none;
   margin: 0;
