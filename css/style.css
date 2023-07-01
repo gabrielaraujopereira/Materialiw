@@ -343,62 +343,62 @@ footer {
       color: white;
     }
     
-    .searchbox{
-      display: block;
-      position: absolute;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      background-color: #000;
-      height: 3.5%;
-      padding: 1em;
-      border-radius: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+.searchbox{
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000;
+  height: 3.5%;
+  padding: 1em;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
     
-    .search-txt{
-      display: block;
-      border: none;
-      background: none;
-      outline: none;
-      padding: 0%;
-      color: #f0f5f0;
-      font-size: 0.9em;
-      line-height: 40px;
-      width: 0;
-      transition: .5s;
-    }
+.search-txt{
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0%;
+  color: #f0f5f0;
+  font-size: 0.9em;
+  line-height: 40px;
+  width: 0;
+  transition: .5s;
+}
     
-    .searchbutton{
-      display: block;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.searchbutton{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
     
-    .searchbox:hover > .search-txt {
-      width: 240px;
-    }
+.searchbox:hover > .search-txt {
+  width: 240px;
+}
     
-    #personagens li a{
-      padding: 12px;
-      color: #f1f1f1;
-      display: block;
-      outline: none;
-      text-decoration: none;
-    }
+#personagens li a{
+  padding: 12px;
+  color: #f1f1f1;
+  display: block;
+  outline: none;
+  text-decoration: none;
+}
     
-    #personagens li a:hover{
-      background-color: #000;
-      outline: none;
-      text-decoration: none;
-      transform: translateY(-5px);
-      cursor: pointer;
-    }
+#personagens li a:hover{
+  background-color: #000;
+  outline: none;
+  text-decoration: none;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
     
