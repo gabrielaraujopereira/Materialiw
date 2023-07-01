@@ -46,7 +46,6 @@ header {
 
 nav{
   display: flex;
-  background-color: #000;
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
@@ -60,7 +59,6 @@ nav{
 }
 
 .menu-btn {
-  order: 2;
   display: none;
 }
 
