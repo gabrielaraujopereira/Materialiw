@@ -174,9 +174,11 @@ nav ul li a:hover{
   nav ul li {
       margin: 5px 0;
   }
-
+  nav ul li a.active,
   nav ul li a:hover{
     background-color: #a3a5ae;
+    outline: none;
+    text-decoration: none;
     background-size: 100% 2px;
     padding: 8px 15px;
     margin: 0;
