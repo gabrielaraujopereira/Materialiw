@@ -18,10 +18,6 @@ body {
     height: auto;
   }
 
-.banner:hover{
-  cursor: pointer;
-}
-
 @font-face{
     font-family: "Bradley Gratis";
     src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
