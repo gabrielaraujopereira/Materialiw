@@ -176,7 +176,8 @@ nav ul li a:hover{
   }
 
   nav ul li a:hover{
-    border-bottom: 2px solid #a3a5ae;
+    background-color: #a3a5ae;
+    background-size: 100% 2px;
     padding: 8px 15px;
     margin: 0;
     cursor: pointer;
