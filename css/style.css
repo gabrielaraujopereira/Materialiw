@@ -18,6 +18,10 @@ body {
     height: auto;
   }
 
+.banner:hover{
+  cursor: pointer;
+}
+
 @font-face{
     font-family: "Bradley Gratis";
     src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
@@ -49,6 +53,7 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .logo {
@@ -213,12 +218,12 @@ li{
 }
 
 
-  @media screen and (max-width: 990x) {
-    .banner {
-      max-width: 100%;
-      height: auto;
-    }
+@media screen and (max-width: 990x) {
+  .banner {
+    max-width: 100%;
+    height: auto;
   }
+}
   
 .container{
     text-align: justify;
@@ -271,7 +276,7 @@ footer {
     width: 50%;
 }
     
- @media (max-width: 600px){
+@media (max-width: 600px){
     .linha {
       flex-direction: column;
     }
@@ -281,67 +286,67 @@ footer {
 }
     
 .img-card{
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    width: 90%;
-    border-style: dashed;
-    border-color: #570707;
-    border-width: 2px;
-    border-radius: 2px;
-    border-left: rgb(87, 7, 7);
-    padding: 6px;
-    transition: 0.3s;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  width: 90%;
+  border-style: dashed;
+   border-color: #570707;
+  border-width: 2px;
+  border-radius: 2px;
+  border-left: rgb(87, 7, 7);
+  padding: 6px;
+  transition: 0.3s;
 }
     
 .card{
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    width: 90%;
-    border-style: dashed;
-    border-color: #392972;
-    transition: 0.3s;   
-    border-width: 2px;
-    border-radius: 2px;
-     border-left: #392972;
-    padding: 6px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  width: 90%;
+  border-style: dashed;
+  border-color: #392972;
+  transition: 0.3s;   
+  border-width: 2px;
+  border-radius: 2px;
+  border-left: #392972;
+  padding: 6px;
  }
     
 .card p {
-    color: #a3a5ae;
-    font-size: 16px;
+  color: #a3a5ae;
+  font-size: 16px;
 }
     
 .img-card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
+  transform: translateY(-5px);
+  cursor: pointer;
  }
     
 #customers{
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
     
 #customers td{
-     border: 1px solid #ddd;
-     padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
  }
     
 #custumers th{
-    border: 1px solid #ddd;
-    padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
  }
     
 #customers tr:hover {
-    background-color: #ddd;
-    color: #000;
- }
+  background-color: #ddd;
+  color: #000;
+}
     
 #customers th{
-    padding-top: 12px;
-     padding-bottom: 12px;
-      text-align: left;
-      background-color:  #392972;
-      color: white;
-    }
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #392972;
+  color: white;
+}
     
 .searchbox{
   display: block;
