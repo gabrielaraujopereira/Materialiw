@@ -447,8 +447,8 @@ footer {
   top: 90%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-color: #000;
-  height: 3.5%;
+  background-color: #392972;
+  height: 5%;
   padding: 1em;
   border-radius: 40px;
   display: flex;
@@ -474,7 +474,7 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #392972;
   display: flex;
   justify-content: center;
   align-items: center;
