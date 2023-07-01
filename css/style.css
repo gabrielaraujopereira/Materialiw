@@ -126,6 +126,7 @@ nav ul li a:hover{
       padding: 0.5rem 1rem;
       display: flex;
       cursor: pointer;
+      margin-top: -20px;
   }
 
   #menu {
@@ -138,6 +139,7 @@ nav ul li a:hover{
     background-color: #000;
     border: none;
     gap: 0.5rem;
+    border-radius: 5px;
   }
 
   #menu.open {
