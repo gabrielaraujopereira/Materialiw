@@ -29,10 +29,6 @@ body {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 header {
   position: fixed;
   right: 0;
