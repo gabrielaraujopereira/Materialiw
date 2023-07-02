@@ -534,6 +534,10 @@ label {
   margin-bottom: 10px;
 }
 
+.formulario input[type="submit"] {
+  padding: 10px 20px;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -556,5 +560,23 @@ button {
 
 button:hover {
   background-color: #1e163d;
+}
+
+@media screen and (max-width: 990px) {
+  .formulario {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .formulario input[type="submit"] {
+    width: 100%;
+  }
 }
     
