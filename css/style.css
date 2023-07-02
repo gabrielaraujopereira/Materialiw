@@ -1,27 +1,42 @@
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #000;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  text-align: justify;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  padding: 2em;
+}
+
+@media (max-width: 990px) {
+  .container{
+    width: 100%;
   }
+}
 
 .banner{
-    display: flex;
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 
 @font-face{
-    font-family: "Bradley Gratis";
-    src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
+  font-family: "Bradley Gratis";
+  src: url("../fonts/bradley_gratis/Bradley\ Gratis.ttf");
 }
 
 * {
@@ -194,53 +209,53 @@ nav ul li a:hover{
   }
 }
 
-  h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1%;
-    font-family: 'Bradley Gratis', sans-serif; 
-    font-size: 2.5em;
-    margin-bottom: 2em
-  }
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1%;
+  font-family: 'Bradley Gratis', sans-serif; 
+  font-size: 2.5em;
+  margin-bottom: 2em
+}
     
-  h2 {
-        font-size: 2em;
-        text-align: left;
-      color: aliceblue;
-      font-family: 'Bradley Gratis', sans-serif;
-      text-align: center;
-  }
+h2 {
+  font-size: 2em;
+  text-align: left;
+  color: aliceblue;
+  font-family: 'Bradley Gratis', sans-serif;
+  text-align: center;
+}
   
-  h3{
-      font-size: 1.3em;
-      color: #FFF;
-      font-family: 'Poppins', sans-serif;
-  }
+h3{
+  font-size: 1.3em;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+}
   
-  h4{
-      font-size: 1em;
-      color:aliceblue;
-      font-family: 'Poppins', sans-serif;
-  }
+h4{
+  font-size: 1em;
+  color:aliceblue;
+  font-family: 'Poppins', sans-serif;
+}
   
-  p{
-      color: aliceblue;
-      padding: 1em;
-      font-family: Arial, Helvetica, sans-serif;
-      text-indent: 1em;
-      text-align: left;
-      line-height: 1.5em;
-  }
+p{
+  color: aliceblue;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
   
 ul{
-    padding: 1%;
-    list-style-image: url(../img/vampire.png);
-    line-height: 1.5em;
+  padding: 1%;
+  list-style-image: url(../img/vampire.png);
+  line-height: 1.5em;
  }
   
 li{
-    margin-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -250,16 +265,7 @@ li{
     height: auto;
   }
 }
-  
-.container{
-    text-align: justify;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #000;
-    padding: 2em;
-}
-  
+
 img{
     display: block;
     margin-left: auto;
