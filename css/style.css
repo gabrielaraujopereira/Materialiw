@@ -161,7 +161,7 @@ nav ul li a:hover{
     display: none;
     list-style-type: none;
     padding: 0;
-    position: static;
+    position: absolute;
     top: 100%;
     left: auto;
     background-color: #000;
