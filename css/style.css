@@ -117,7 +117,7 @@ nav ul li a:hover{
       flex-direction: column;
       align-items: flex-start;
       padding: 25px 5%;
-      height: 7%;
+      height: 80px;
       position: static;
   }
   nav{
@@ -146,7 +146,7 @@ nav ul li a:hover{
     padding: 0;
     position: absolute;
     top: 100%;
-    right: 0;
+    left: 0;
     background-color: #000;
     border: none;
     gap: 0.5rem;
