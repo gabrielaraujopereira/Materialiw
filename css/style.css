@@ -136,7 +136,7 @@ nav ul li a:hover{
   .menu-btn {
       position: relative;
       padding: 0.5rem 1rem;
-      display: flex;
+      display: block;
       cursor: pointer;
       margin-top: -25px;
   }
