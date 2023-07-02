@@ -152,6 +152,7 @@ nav ul li a:hover{
     border: none;
     gap: 0.5rem;
     margin-top: -600px;
+    margin-left: 50px;
     border-radius: 5px;
   }
   #menu.open {
