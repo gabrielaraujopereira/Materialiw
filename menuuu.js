@@ -1,4 +1,4 @@
-var menuBtn = document.querySelector(".menu-btn i");
+var menuBtn = document.querySelector(".menu-btn");
 var menu = document.getElementById("menu");
 var isOpen = false;
 
