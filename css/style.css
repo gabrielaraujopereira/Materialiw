@@ -146,6 +146,7 @@ nav ul li a:hover{
     padding: 0;
     position: absolute;
     top: 100%;
+    right: auto;
     left: 0;
     background-color: #000;
     border: none;
