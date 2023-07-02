@@ -267,32 +267,32 @@ li{
 }
 
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
   
 .ladodir{
-    float: right;
+  float: right;
 }
   
 .imgmeio{
-    width: 40%;
-    margin-left: 2%;
-    margin-bottom: 2%;
+  width: 40%;
+  margin-left: 2%;
+  margin-bottom: 2%;
 }
   
 section {
-    padding: 2em;
-    margin-bottom: 2em;
+  padding: 2em;
+  margin-bottom: 2em;
  }
 
 footer {
-    background-color: #000;
-     color: #fff;
-     padding: 2em;
-    text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
 }
 .linha {
   display: flex;
