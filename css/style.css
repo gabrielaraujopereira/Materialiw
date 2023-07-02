@@ -519,4 +519,42 @@ footer {
   transform: translateY(-5px);
   cursor: pointer;
 }
+
+main {
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #392972;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e163d;
+}
     
