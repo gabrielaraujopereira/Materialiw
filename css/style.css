@@ -282,7 +282,14 @@ img{
   margin-left: 2%;
   margin-bottom: 2%;
 }
-  
+
+@media (max-width: 990px) {
+  .ladodir{
+    float: none;
+    align-items: center;
+  }
+}  
+
 section {
   padding: 2em;
   margin-bottom: 2em;
