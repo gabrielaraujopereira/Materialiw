@@ -161,13 +161,13 @@ nav ul li a:hover{
     display: none;
     list-style-type: none;
     padding: 0;
-    position: absolute;
+    position: static;
     top: 100%;
     left: auto;
     background-color: #000;
     border: none;
     gap: 0.5rem;
-    margin-top: -560px;
+    margin-top: -600px;
     border-radius: 5px;
   }
   #menu.open {
