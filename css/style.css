@@ -532,10 +532,7 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
-}
-
-.formulario input[type="submit"] {
-  padding: 10px 20px;
+  border-radius: 50%;
 }
 
 input[type="text"],
