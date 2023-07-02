@@ -136,7 +136,7 @@ nav ul li a:hover{
   .menu-btn {
       position: relative;
       padding: 0.5rem 1rem;
-      display: block;
+      display: flex;
       cursor: pointer;
       margin-top: -25px;
   }
@@ -147,11 +147,11 @@ nav ul li a:hover{
     padding: 0;
     position: absolute;
     top: 100%;
-    right: 0;
+    left: auto;
     background-color: #000;
     border: none;
     gap: 0.5rem;
-    margin-top: -30px;
+    margin-top: -600px;
     border-radius: 5px;
   }
   #menu.open {
@@ -170,8 +170,9 @@ nav ul li a:hover{
     font-weight: bold;
   }
   nav ul {
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .menu-btn i:hover + ul {
       display: flex;
