@@ -1,26 +1,30 @@
 <?php
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$mensagem = $_POST['mensagem'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-$para = 'detonator834@gmail.com'; 
-$assunto = 'Nova mensagem de contato';
 
-$corpo = "Nome: $nome\n";
-$corpo .= "Email: $email\n";
-$corpo .= "Mensagem: $mensagem\n";
+    $destinatario = "detonator834@gmail.com";
 
-if (empty($nome) || empty($email) || empty($mensagem)) {
-    echo "Por favor, preencha todos os campos.";
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $mensagem = $_POST["mensagem"];
+
+    $assunto = "Contato pelo Formulário do Site";
+    $corpo = "Nome: " . $nome . "\n";
+    $corpo .= "Email: " . $email . "\n";
+    $corpo .= "Mensagem: " . $mensagem;
+
+    $headers = "From: " . $email . "\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
+
+    if (mail($destinatario, $assunto, $corpo, $headers)) {
+        echo "Mensagem enviada com sucesso!";
+    } else {
+        echo "Erro ao enviar a mensagem.";
+    }
+
+} else {
+    header("Location: contato.html");
     exit;
 }
-
-if (mail($para, $assunto, $corpo)) {
-
-  header("Location: contato.html"); 
-  exit;
-} else {
- 
-  echo "Ocorreu um erro ao enviar o email.";
-}
 ?>
+
