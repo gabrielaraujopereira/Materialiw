@@ -53,7 +53,7 @@ header {
   z-index: 1000;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   padding: 33px 5%;
   height: 12%;
@@ -62,12 +62,13 @@ header {
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px 0 100px;
+  padding: 0 50px 0 300px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: right;
 }
 
 .logo {
+  text-align: left;
   left: 0;
   font-family: 'Bradley Gratis';
   color: #fff;
@@ -476,50 +477,6 @@ tbody tr:hover {
   cursor: pointer;
 }
 
-    
-.searchbox{
-  display: block;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: #392972;
-  height: 5%;
-  padding: 1em;
-  border-radius: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-    
-.search-txt{
-  display: block;
-  border: none;
-  background: none;
-  outline: none;
-  padding: 0%;
-  color: #f0f5f0;
-  font-size: 0.9em;
-  line-height: 40px;
-  width: 0;
-  transition: .5s;
-}
-    
-.searchbutton{
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #392972;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-    
-.searchbox:hover > .search-txt {
-  width: 240px;
-}
-    
 #personagens li a{
   padding: 12px;
   color: #f1f1f1;
